@@ -164,7 +164,7 @@ address {
 /* Principles section */
 
 .visually-hidden {
-  position: absolute !important;
+  position: absolute;
   height: 1px;
   width: 1px;
   overflow: hidden;
@@ -278,6 +278,7 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .portfolio-item-type {
   color: #434455;
